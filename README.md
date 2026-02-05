@@ -5,39 +5,39 @@ Documented solutions to my algorithmic challenges on Codewars. Focus on JavaScri
 
 ![Codewars Badge] https://www.codewars.com/users/nPerryKeanou/badges/large
 
-## Présentation
-Ce dépôt est mon journal de bord algorithmique. J'y archive mes solutions aux défis de la plateforme **Codewars**. 
+## Overview
+This repository is my algorithmic logbook. I archive my solutions to challenges on the **Codewars** platform here. 
 
-L'objectif est triple :
-1. **Pratiquer** quotidiennement le JavaScript (et plus tard le TypeScript).
-2. **Documenter** ma progression et ma manière de résoudre des problèmes complexes.
-3. **Apprendre** des solutions de la communauté après chaque validation.
-
----
-
-## Organisation du dépôt
-Chaque défi est classé par niveau de difficulté (**Kyu**) :
-
-* **8 Kyu** : Fondamentaux de la programmation, types de données, boucles simples.
-* **7 Kyu** : Logique un peu plus avancée, manipulations de tableaux et d'objets.
-* *À venir... (6 Kyu et au-delà !)*
-
-Chaque fichier contient :
-- Le lien vers l'énoncé original.
-- Une explication rapide de ma démarche en commentaire.
-- Mon code source.
-- Les tests pour vérifier la solution.
+The goal is threefold:
+1. **Practice** JavaScript (and later TypeScript) daily.
+2. **Document** my progress and how I solve complex problems.
+3. **Learn** from the community's solutions after each validation.
 
 ---
 
-## Comment je travaille
-Une fois que j'ai réussi un Kata, je prends le temps de regarder les "Best Practices" de la communauté. Si une solution est plus élégante que la mienne, je l'analyse et je note mes observations dans le fichier correspondant.
+## Repository organization
+Each challenge is classified by difficulty level (**Kyu**):
+
+* **8 Kyu**: Programming fundamentals, data types, simple loops.
+* **7 Kyu**: Slightly more advanced logic, array and object manipulation.
+* *Coming soon... (6 Kyu and beyond!)*
+
+Each file contains:
+- The link to the original statement.
+- A quick explanation of my approach in the comments.
+- My source code.
+- Tests to verify the solution.
 
 ---
 
-## Statistiques
-- **Langage principal** : JavaScript
+## How I work
+Once I've successfully completed a Kata, I take the time to look at the community's “Best Practices.” If a solution is more elegant than mine, I analyze it and note my observations in the corresponding file.
 
 ---
 
-*Dépôt maintenu avec passion par nPerryKeanou.*
+## Statistics
+- **Main language**: JavaScript
+
+---
+
+*Repository maintained with passion by nPerryKeanou.*
