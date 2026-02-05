@@ -1,11 +1,11 @@
 # algorithms_resolved_codewar
 Documented solutions to my algorithmic challenges on Codewars. Focus on JavaScript logic, clean code, and continuous learning.
 
-# 🥋 Codewars Challenges Archive
+# Codewars Challenges Archive
 
-![Codewars Badge]https://www.codewars.com/users/nPerryKeanou/badges/large
+![Codewars Badge] https://www.codewars.com/users/nPerryKeanou/badges/large
 
-## 📝 Présentation
+## Présentation
 Ce dépôt est mon journal de bord algorithmique. J'y archive mes solutions aux défis de la plateforme **Codewars**. 
 
 L'objectif est triple :
@@ -15,7 +15,7 @@ L'objectif est triple :
 
 ---
 
-## 📁 Organisation du dépôt
+## Organisation du dépôt
 Chaque défi est classé par niveau de difficulté (**Kyu**) :
 
 * **8 Kyu** : Fondamentaux de la programmation, types de données, boucles simples.
@@ -30,12 +30,12 @@ Chaque fichier contient :
 
 ---
 
-## 🚀 Comment je travaille
+## Comment je travaille
 Une fois que j'ai réussi un Kata, je prends le temps de regarder les "Best Practices" de la communauté. Si une solution est plus élégante que la mienne, je l'analyse et je note mes observations dans le fichier correspondant.
 
 ---
 
-## 📊 Statistiques
+## Statistiques
 - **Langage principal** : JavaScript
 
 ---
