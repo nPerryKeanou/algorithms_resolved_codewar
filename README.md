@@ -36,7 +36,7 @@ Once I've successfully completed a Kata, I take the time to look at the communit
 ---
 
 ## Statistics
-- **Main language**: JavaScript
+- **Main language**: TypeScript
 
 ---
 
