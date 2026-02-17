@@ -18,4 +18,30 @@
  */
 
 // --- MY SOLUTION ---
+function incrementString (strng: string): string{
+    let i: number = strng.length - 1;
 
+    while(i >= 0 && /^[0-9]$/.test(strng[i])){
+        i--;
+    }
+
+    const text: string = strng.slice(0, i + 1);
+    const rest: string = strng.slice(i + 1);
+    
+    let incremented: string = (Number(rest) + 1).toString();
+
+    while (incremented.length < rest.length) {
+        incremented = "0" + incremented;
+    }
+
+    // 3. Retourner le résultat final
+    return text + incremented;
+
+}
+
+// --- TEST ---
+console.log(`test 1 --> "okmec123" --> ${incrementString("okmec123")}`);
+console.log(`test 1 --> "okmec" --> ${incrementString("okmec")}`);
+console.log(`test 1 --> "okmec0123" --> ${incrementString("okmec0123")}`);
+console.log(`test 1 --> "okmec99" --> ${incrementString("okmec99")}`);
+console.log(`test 1 --> "okmec009" --> ${incrementString("okmec009")}`);
