@@ -25,28 +25,13 @@
  */
 
 // --- MY SOLUTION ---
-//donc je dois créer un dico des 6 faces.
-//récupérer les nb du params et les ajouter dans le dico selon leur valeur.
-//vérifier les triplé
-//vérifier les unique 1 ou 5
-//cacluler la sommes
-
-//dans le dico, les clés sont en fait les valeurs.
-//et le nb de des seront le les valeurs du array.
-//je vais parcourir le array params pour pour voir s'il y a des chiffrs et voir leurs occurence.
-//ensuite, je les mets dans le dico et je verrais le resultat a la fin.
-//dictionnaire des valeurs des dés.
-
 function score(dice: number[]): number{
-    //initialisation du dico
     const counts : Record<number, number> = {
         1:0, 2:0, 3:0, 4:0, 5:0, 6:0
     };
     let score: number = 0;
     let reste: number = 0;
 
-    //parcours du array + add in dico
-    //Il parcours le array et ajoute 1 dans le bon index du du array
     for(const die of dice){
         counts[die]++;
     }
@@ -54,7 +39,6 @@ function score(dice: number[]): number{
     for(let face:number = 1; face <= 6; face++){
         const nb: number = counts[face];
 
-        //récupère les triplés.
         if(nb >= 3){
             if(face === 1){
                 score += 1000;
@@ -62,7 +46,7 @@ function score(dice: number[]): number{
                 score += face * 100;
             }
         }
-        //récupère les solo
+
         reste = nb % 3;
         if(face === 1){
             score += reste * 100;
